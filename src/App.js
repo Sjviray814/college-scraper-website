@@ -1,4 +1,5 @@
 import Searchbar from './Searchbar/Searchbar.js'
+import './style.css'
 
 function App() {
   return (

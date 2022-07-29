@@ -1,0 +1,65 @@
+html{
+    background-color: black;
+}
+
+.App{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 7%;
+}
+
+ul{
+    list-style: none;
+    width:35vw;
+    padding-left: 0;
+    min-height: 100vh;
+}
+li{
+    padding: .3rem;
+    display: flex;
+    margin-right: .3rem;
+}
+
+li + li{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.rank{
+    display:inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1%;
+    background-image:linear-gradient(to bottom, aquamarine, orangered);
+    background-attachment: fixed;
+    color:transparent;
+    background-clip:text;
+}
+.name{
+    margin-top: .3rem;
+    margin-left: 1rem;
+}
+
+@media(max-width:950px){
+    ul{
+        list-style: none;
+        width:60vw;
+    }
+}
+
+input{
+    background-color: transparent;
+    color:gray;
+    width:35vw;
+    padding:.3rem;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    font-size:1rem;
+    opacity:60%;
+}
+input:focus{
+    outline:none; 
+}

@@ -19,13 +19,14 @@ const Searchbar = () =>{
     
     return(
         <div>
-            <input type='text' value={searchValue} onChange={handleChange}/>
+            <input type='text' value={searchValue} onChange={handleChange} placeholder='College Name'/>
 
-
+            <ul>
             {filteredColleges.map((college) =>{
                 let collegeName = Object.keys(college);
-                return(<div key={collegeName}> {colleges.indexOf(college) + 1}. {collegeName} | {Object.values(college)}</div>)
+                return(<li key={collegeName}> <div className='rank'>{colleges.indexOf(college) + 1}</div> <div className='name'>{collegeName} | {Object.values(college)}</div></li>)
             })}
+            </ul>
 
         </div>
     )
