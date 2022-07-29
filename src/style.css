@@ -63,3 +63,9 @@ input{
 input:focus{
     outline:none; 
 }
+
+@media (hover: none) {
+    .rank {
+        background-attachment: initial;
+    }
+ }
