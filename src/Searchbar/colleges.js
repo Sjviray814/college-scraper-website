@@ -1,3 +1,4 @@
+// I think I lost the code for the scraper, it might have been on my old computer :(
 const colleges = [
   { 'STANFORD UNIVERSITY': 398 },
   { 'MASSACHUSETTS INSTITUTE OF TECHNOLOGY': 396 },
