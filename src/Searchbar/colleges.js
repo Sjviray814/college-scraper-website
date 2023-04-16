@@ -1,4 +1,5 @@
 // I think I lost the code for the scraper, it might have been on my old computer :(
+// Here is the scraper code I found it: https://github.com/Sjviray814/college-scraper
 const colleges = [
   { 'STANFORD UNIVERSITY': 398 },
   { 'MASSACHUSETTS INSTITUTE OF TECHNOLOGY': 396 },
